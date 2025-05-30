@@ -1,7 +1,6 @@
 package io.github.gustacodes.mscartoes.domain;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -27,4 +26,5 @@ public class Cartao {
         this.renda = renda;
         this.limiteBasico = limiteBasico;
     }
+
 }
